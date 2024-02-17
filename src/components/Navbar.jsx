@@ -4,7 +4,7 @@ function Navbar() {
     <nav className="bg-white border-gray-200 light:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/src/assets/wim-logo.png" className="h-16" alt="WiM logo" />
+          <img src="/src/assets/pictures/wim-logo.png" className="h-16" alt="WiM logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap light:text-white">
             Women in the
             <br /> Marketplace
