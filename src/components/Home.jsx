@@ -3,6 +3,8 @@ import About from './About';
 import Contact from './Contact';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import wim_2 from '../assets/pictures/wim-2.jpg';
+import wim_4 from '../assets/pictures/wim-4.jpg';
 
 function Home() {
   return (
@@ -14,7 +16,7 @@ function Home() {
         <h1 className="flex justify-center">Who we are</h1>
         <div className="flex flex-col sm:flex-col md:flex-col   lg:flex-row pt-3">
           <img
-            src="/src/assets/pictures/wim-2.jpg"
+            src={wim_2}
             className="shadow rounded-md w-full h3/5 sm:h-3/5 sm:w-full lg:w-2/5 lg:h-auto animate-fade-up animate-once animate-ease-in animate-delay-75"
             alt="WiM logo"
           />
@@ -87,7 +89,7 @@ function Home() {
           </div>
           <div className="flex flex-col justify-center">
             <img
-              src="/src/assets/pictures/wim-4.jpg"
+              src={wim_4}
               className="shadow rounded-md w-full h3/5 sm:h-3/5 sm:w-full  lg:h-auto animate-fade-up animate-once animate-ease-in animate-delay-75"
               alt="WiM image"
             />

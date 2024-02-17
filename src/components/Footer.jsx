@@ -1,3 +1,5 @@
+import wim_logo from '../../src/assets/pictures/wim-logo.png';
+
 function Footer() {
   return (
     <footer className="bg-white rounded-lg shadow light:bg-gray-900 m-4">
@@ -7,11 +9,7 @@ function Footer() {
             href="#"
             className="flex items-center  mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="/src/assets/pictures/wim-logo.png"
-              className="h-8"
-              alt="WiM logo"
-            />
+            <img src={wim_logo} className="h-8" alt="WiM logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap light:text-white">
               Women in the Marketplace
             </span>
