@@ -42,8 +42,8 @@ const TestimonialsCarousel = () => {
   }, [activeIndex]);
 
   return (
-    <div className="container my-24 mx-auto md:px-6">
-      <section className="mb-32 text-center">
+    <div className="container my-8 mx-auto md:px-6">
+      <section className="mb-8 text-center">
         <h1 className="flex justify-center">Testimonials</h1>
         <br />
         <div className="relative">
