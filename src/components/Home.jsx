@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import wim_2 from '../assets/pictures/wim-2.jpg';
 import wim_4 from '../assets/pictures/wim-4.jpg';
+import TestimonialsCarousel from './TestimonialsCarousel';
 
 function Home() {
   return (
@@ -20,7 +21,10 @@ function Home() {
             className="shadow rounded-md w-full h3/5 sm:h-3/5 sm:w-full lg:w-2/5 lg:h-auto animate-fade-up animate-once animate-ease-in animate-delay-75"
             alt="WiM logo"
           />
-          <div className="flex flex-col shadow p-2 sm:pt-3 lg:p-3 justify-center intersect ? 'animate-fade-left animate-ease-out':'opacity-0'">
+          <div
+            className="flex flex-col shadow p-2 sm:pt-3 lg:p-3 justify-center intersect ? 'animate-fade-left animate-ease-out':'opacity-0'"
+            id="About"
+          >
             <p className="p-2 lg:pl-8">
               We are a community dedicated to empowering Christian women in the
               marketplace through fellowship, leadership development, and
@@ -97,10 +101,11 @@ function Home() {
         </div>
       </div>
       <br />
+      <TestimonialsCarousel />
       <hr className="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
       <div className="mx-auto container px-4 ">
         <h1 className="flex justify-center">Join Us</h1>
-        <div className="flex flex-col mx-auto p-5 items-center">
+        <div className="flex flex-col mx-auto pt-5 items-center">
           <p className="p-5 text-center">
             Join us for our monthly meetings every{' '}
             <strong>Second Saturday of the month at 10:00 am</strong>. We meet

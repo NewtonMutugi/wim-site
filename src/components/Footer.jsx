@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-white rounded-lg shadow light:bg-gray-900 m-4">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div className="flex flex-row justify-center sm:flex sm:items-center sm:justify-center">
+        <div className="flex flex-col justify-center sm:flex sm:items-center sm:justify-center">
           <a
             href="#"
             className="flex items-center  mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
@@ -36,6 +36,11 @@ function Footer() {
               </a>
             </li>
           </ul> */}
+          <p className="pt-5 text-sm">
+            Reach us on :<br />
+            <strong>Email:</strong> wim.grow@gmail.com <br />
+            <strong>Phone:</strong> +254 722 322 007
+          </p>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto light:border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center light:text-gray-400">
