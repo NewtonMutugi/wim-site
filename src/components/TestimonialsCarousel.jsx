@@ -13,7 +13,7 @@ const TestimonialsCarousel = () => {
     },
     {
       name: 'Benta',
-      role: 'Caterer',
+      role: 'Entreprenuer',
       text: "I had been contracted to clean the washrooms ahead of the meeting that day. When I heard it was a women's meeting I decided to join and listen.  I not only got a fellowship but also support to get health certificate giving life to my catering business. WiM gave me hope as a Widow.",
       avatar: wim_6,
     },
