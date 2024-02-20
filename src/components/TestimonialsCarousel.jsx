@@ -34,7 +34,7 @@ const TestimonialsCarousel = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       handleNext();
-    }, 5000); // Change the interval duration (in milliseconds) as needed
+    }, 10000); // Change the interval duration (in milliseconds) as needed
 
     return () => {
       clearInterval(intervalId);
