@@ -34,7 +34,7 @@ const TestimonialsCarousel = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       handleNext();
-    }, 10000); // Change the interval duration (in milliseconds) as needed
+    }, 25000); // Change the interval duration (in milliseconds) as needed
 
     return () => {
       clearInterval(intervalId);
@@ -63,7 +63,7 @@ const TestimonialsCarousel = () => {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
                     <p className="mb-6 text-neutral-500 dark:text-neutral-300">
-                      "<em>{testimonial.text}</em>" {'  \t    '}
+                      &quot;<em>{testimonial.text}</em>&quot; {'  \t    '}
                       <strong>{testimonial.name}</strong> -{' '}
                       <strong>{testimonial.role}</strong>
                     </p>
@@ -73,18 +73,18 @@ const TestimonialsCarousel = () => {
             ))}
           </div>
           <button
-            className="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none"
+            className="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-grey opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none"
             type="button"
             onClick={handlePrev}
           >
-            Previous
+            &#x2B05;
           </button>
           <button
-            className="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none"
+            className="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-grey opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none"
             type="button"
             onClick={handleNext}
           >
-            Next
+            <></>
           </button>
         </div>
       </section>

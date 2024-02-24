@@ -2,7 +2,10 @@ import wim_logo from '../../src/assets/pictures/wim-logo.png';
 
 function Footer() {
   return (
-    <footer className="bg-white rounded-lg shadow light:bg-gray-900 m-4">
+    <footer
+      className="bg-white rounded-lg shadow light:bg-gray-900 m-4"
+      id="contact"
+    >
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="flex flex-col justify-center sm:flex sm:items-center sm:justify-center">
           <a

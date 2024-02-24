@@ -29,25 +29,27 @@ function Home() {
               We are a community dedicated to empowering Christian women in the
               marketplace through fellowship, leadership development, and
               building economic resilience. <br /> <br />
-              <strong>Our Vision</strong> is to see women empowered to bring
-              transformation to kingdom financing and to be a blessing to others
-              in their communities. <br />
+              <strong>Our Vision</strong>- Empower Christian Women in the
+              Marketplace to transform economies <br />
               <br />
               <strong>Our Mission</strong> is to foster Christ-centred women’s
               economic empowerment programs transforming lives and building a
               stronger community. <br />
               <br />
-              We do this by providing a safe space where women can gather to
-              pray, study the word, share openly and grow personally and
-              professionally. We aim to establish leadership programs, create
-              linkages to empowerment opportunities, and strengthen capacities.
+              We do this by Providing a safe space where women can gather to
+              pray, study the word, share openly, network and grow personally
+              and professionally. We aim to establish leadership programs,
+              create linkages to empowerment opportunities, and strengthen
+              capacities of women at different levels.
               <br />
             </p>
           </div>
         </div>
       </div>
       <hr className="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
-      <h1 className="flex justify-center">What we do</h1>
+      <h1 className="flex justify-center" id="about">
+        What we do
+      </h1>
       <div className="container mx-auto p-5 flex flex-col">
         <div className="flex flex-col sm:flex-col lg:flex-row pt-3 ">
           <div className="flex flex-col shadow p-2 sm:pt-3 lg:pt-0">
