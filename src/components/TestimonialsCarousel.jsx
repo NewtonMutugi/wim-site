@@ -84,7 +84,7 @@ const TestimonialsCarousel = () => {
             type="button"
             onClick={handleNext}
           >
-            <></>
+            &#x27A1;
           </button>
         </div>
       </section>
